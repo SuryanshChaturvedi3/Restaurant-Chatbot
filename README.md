@@ -1,23 +1,42 @@
-🏃 Getting Started
-1. Clone the Repository
-2. Install Dependencies
-3. 🔑 Setup API Key (Important!)
-Since this bot uses the Gemini API, you need a valid API key.
-
 ⚠️⚠️❌ [Currently API_KEY has reached its limit , its may be in working Condition]
 
-Create a file named .env in the root folder.
+# 🍽️ Restaurant Chatbot
 
-Add your Google API key inside it:
+An intelligent, AI-powered customer service chatbot designed for restaurants. This application leverages **Google's Gemini API** to handle customer queries, provide menu details, and assist with reservations in a natural, conversational manner.
 
-(Get your free key from )
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Tech Stack](https://img.shields.io/badge/Stack-Node.js%20%7C%20Gemini%20AI-blue)
 
-4. Run the Bot
-Visit http://localhost:5000 in your browser to start chatting!
+## 🚀 Features
 
-⚠️ Troubleshooting
-"Bot not replying": Check if your GOOGLE_API_KEY inside .env is correct and has an active quota.
+- **Generative AI Responses:** Powered by Google's Gemini Pro model for intelligent, context-aware answers.
+- **Real-time Interaction:** Instant responses to user queries through a clean web interface.
+- **Customizable Persona:** The bot acts as a helpful restaurant staff member.
+- **Full-Stack Setup:** Robust Node.js backend with a responsive HTML/CSS/JS frontend.
 
-"Module not found": Ensure you ran pip install -r requirements.txt.
+---
 
+## 🛠️ Tech Stack
+
+- **Backend:** Node.js, Express.js
+- **AI Engine:** Google Gemini API (`@google/generative-ai`)
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Environment Management:** dotenv
+
+---
 Developed by Suryansh Chaturvedi
+
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally on your machine.
+
+### 1. Prerequisites
+Ensure you have **Node.js** installed.
+- [Download Node.js](https://nodejs.org/)
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/SuryanshChaturvedi3/Restaurant-Chatbot.git](https://github.com/SuryanshChaturvedi3/Restaurant-Chatbot.git)
+cd Restaurant-Chatbot```
+
